@@ -1,0 +1,34 @@
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(image1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.navbar{
+    width: 100%;
+    margin: auto;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aliceblue;
+}
+ul li a{
+    text-decoration: none;
+    margin: 0 15px;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    /*display: inline-block;*/
+    align-items: center;
+    
+}
+ul{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+
+}
